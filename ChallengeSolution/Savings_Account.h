@@ -22,8 +22,6 @@ public:
     Savings_Account(std::string name = def_name, double balance =def_balance, double int_rate = def_int_rate);
     bool deposit(double amount);
     // Inherits the Account::withdraw methods
-    Savings_Account &operator+=(double amount);
-    Savings_Account &operator-=(double amount);
 };
 
 #endif // _SAVINGS_ACCOUNT_H_
